@@ -4,7 +4,7 @@ import './about.css'
 function About() {
     return (
         <div className = "about">
-            <p> {'\t'} I am Andre Nalbandian from California. I am currently attending Cal Poly Pomona (Go Broncos!) 
+            <p>I am Andre Nalbandian from California. I am currently attending Cal Poly Pomona (Go Broncos!) 
             and will be starting my 4th year in the fall of 2021. I am pursuing my Bachelors in Computer Science and I 
             very passionate about constantly learning new things.</p>
 
