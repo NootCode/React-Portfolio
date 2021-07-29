@@ -23,7 +23,7 @@ function NavBar() {
         <NavUnlisted className = 'navbar'>
             <div className = "nameFace">
                 <img src = {face} alt = "loading"/>
-                <h1 className = "name"> Andre Nalbandian :) </h1>
+                <h1 className = "name"> Andre Nalbandian </h1>
             </div>
             <div className = "links">
                     <Link to = '/' style = {linkStyle}>Home</Link>
