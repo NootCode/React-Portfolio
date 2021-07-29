@@ -5,6 +5,7 @@
 .cardText img {
   float: right;
   margin: 25px;
+  border-radius: 30px;
 }
 
 .cardText div {

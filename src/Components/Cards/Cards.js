@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Cards.css'
-import gif from './Gifs/placeholder.gif'
+import gif1 from './Gifs/TodoList.gif'
+import gif2 from './Gifs/UserList.gif'
 import { Grid, Card, CardContent } from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
@@ -17,11 +18,13 @@ const useStyles = makeStyles({
 
     todoListCard:{
         background: "linear-gradient(315deg, #28313b 0%,  #485461 80%)",
+        borderRadius: "25px",
     },
     
 
     userListCard:{
         background: "linear-gradient(315deg, #28313b 0%,  #485461 80%)",
+        borderRadius: "25px",
     }
 })
 
@@ -34,7 +37,7 @@ function Cards() {
                 <Card className = {classes.todoListCard} zDepth = {5}>
                     <CardContent >
                         <div className = "cardText">
-                            <img src = {gif} alt = "loading" />
+                            <img src = {gif1} alt = "loading" />
                             <p>
                                 <div> TodoList App<br/> </div>
                                 Feature Requirements<br/>
@@ -57,7 +60,7 @@ function Cards() {
                 <Card className = {classes.userListCard}>
                     <CardContent>
                         <div className = "cardText">
-                        <img src = {gif} alt = "loading" />
+                        <img src = {gif2} alt = "loading" />
                         <p>
                             <div> User List App<br/> </div>
                             Feature Requirements<br/>
