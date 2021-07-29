@@ -1,0 +1,27 @@
+.links {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: grey;
+}
+.name {
+  color: white;
+  font-size: 65px;
+}
+.navbar img {
+  max-width: 200px;
+  max-height: 150px;
+  border-radius: 100px;
+  padding-right: 10px;
+}
+
+.nameFace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
